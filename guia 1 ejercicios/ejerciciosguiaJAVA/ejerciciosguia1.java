@@ -75,7 +75,7 @@ public class ejerciciosguia1 {
         }
          */
         
-         /* int opcionMotor;
+         int opcionMotor;
         try (Scanner leer = new Scanner(System.in)) { 
             System.out.println("Ingrese un tipo de motor de 1 a 4");
 
@@ -99,7 +99,7 @@ public class ejerciciosguia1 {
         	default:
            System.out.println("No existe un valor válido para tipo de bomba");
             }
-        } */    
+        }    
 
 
         /* int nota;
@@ -134,7 +134,7 @@ public class ejerciciosguia1 {
             System.out.println("la suma es" + suma);       
          } */
 
-         int numero;
+         /* int numero;
          try (Scanner leer = new Scanner(System.in)) {
             for (int i=0;i < 4;i++){
                 System.out.println("ingrese un numero entre 1 y 20");
@@ -144,8 +144,10 @@ public class ejerciciosguia1 {
                 }
              System.out.println(" ");   
             }
-         } 
+         }  */
 
+
+         
     }
 }
 
