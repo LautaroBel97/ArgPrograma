@@ -103,15 +103,19 @@ public class guiadeejercicios3 {
             switch (opcion) {
                 case 1:
                     System.out.println(num1 + num2);
+                    System.out.println("---------");
                     break;
                 case 2:
                     System.out.println(num1 - num2);
+                    System.out.println("---------");
                     break;
                 case 3:
                     System.out.println(num1 * num2);
+                    System.out.println("---------");
                     break;
                 case 4:
                     System.out.println(num1 / num2);
+                    System.out.println("---------");
                     break;
                 case 5:
                     System.out.println("Esta seguro que desea salir? s/n");
@@ -124,7 +128,7 @@ public class guiadeejercicios3 {
                         continue;
             }
 
-        } while ((log = true));
+        } while ((log == true));
 
         // EJERCICIO 7 -------------------------------
 
