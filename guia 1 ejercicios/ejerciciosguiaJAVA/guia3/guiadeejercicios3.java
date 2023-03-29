@@ -80,7 +80,7 @@ public class guiadeejercicios3 {
          * System.out.println("se supero el limite con " +suma);
          */
 
-        // EJERCICIO 6 ------------------------ (sinterminaropcion5)
+        // EJERCICIO 6 ------------------------------------
 
         int num1;
         int num2;
