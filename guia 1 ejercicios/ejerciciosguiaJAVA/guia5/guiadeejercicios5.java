@@ -1,10 +1,7 @@
-package ejerciciosguiaJAVA.guia5;
+package guia5;
 
-import java.io.InputStream;
+
 import java.util.Scanner;
-
-import javax.sound.midi.Soundbank;
-
 import java.util.Random;
 
 public class guiadeejercicios5 {
@@ -175,6 +172,7 @@ public class guiadeejercicios5 {
             }
             System.out.println("");
         }
+        leer.close();
     }
     // EJERCICIO 5-------------------------------------------------------
     /*

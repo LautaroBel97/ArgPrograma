@@ -1,4 +1,4 @@
-package ejerciciosguiaJAVA.guia4;
+package guia4;
 
 import java.io.InputStream;
 import java.util.Scanner;

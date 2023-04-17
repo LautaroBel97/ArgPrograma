@@ -1,4 +1,4 @@
-package ejerciciosguiaJAVA.guia3;
+package guia3;
 
 import java.io.InputStream;
 import java.util.Scanner;
@@ -82,7 +82,7 @@ public class guiadeejercicios3 {
 
         // EJERCICIO 6 ------------------------------------
 
-        int num1;
+        /* int num1;
         int num2;
         int opcion;
         String respuesta;
@@ -128,7 +128,7 @@ public class guiadeejercicios3 {
                         continue;
             }
 
-        } while ((log == true));
+        } while ((log == true)); */
 
         // EJERCICIO 7 -------------------------------
 
@@ -161,22 +161,22 @@ public class guiadeejercicios3 {
          */
 
         // EJERCICIO 8 -----------------------------
-        /*
-         * int num;
-         * Scanner leer = new Scanner(System.in);
-         * System.out.println("ingrese el numero");
-         * num = leer.nextInt();
-         * for(int i=0; i<num; i ++){
-         * for(int j=0; j<num; j ++){
-         * if(i==0 || i==num-1 || j==0 || j==num-1){
-         * System.out.print("*");
-         * } else {
-         * System.out.print(" ");
-         * }
-         * }
-         * System.out.println();
-         * }
-         */
+        
+          int num;
+          Scanner leer = new Scanner(System.in);
+          System.out.println("ingrese el numero");
+          num = leer.nextInt();
+          for (int i = 0; i < num; i++) {
+              for (int j = 0; j < num; j++) {
+                  if (i == 0 || i == num - 1 || j == 0 || j == num - 1) {
+                      System.out.print("*");
+                  } else {
+                      System.out.print(" ");
+                  }
+              }
+              System.out.println();
+          }
+        
 
     }
 

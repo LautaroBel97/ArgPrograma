@@ -1,4 +1,4 @@
-package ejerciciosguiaJAVA.guia3;
+package guia3;
 
 import java.io.InputStream;
 import java.util.Scanner;
@@ -86,7 +86,7 @@ public class ejerciciosguia3 {
 
          //--------------------------------------------------
 
-         /* int numero;
+         int numero;
          try (Scanner leer = new Scanner(System.in)) {
             for (int i=0;i < 4;i++){
                 System.out.println("ingrese un numero entre 1 y 20");
@@ -96,7 +96,7 @@ public class ejerciciosguia3 {
                 }
              System.out.println(" ");   
             }
-         }  */
+         } 
     }
 
 
